@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://financetrackerapi-6lik.onrender.com';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://financetrackerapi-production.up.railway.app';
 
 // Axios types are included by default; no need for @types/axios
 
