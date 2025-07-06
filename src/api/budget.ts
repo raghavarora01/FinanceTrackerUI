@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://financetrackerapi-production.up.railway.app';
-const FLASK_API_URL = process.env.NEXT_PUBLIC_FLASK_API || 'https://financetrackerpyhtonapi-1.onrender.com';
+const API_URL =  'https://financetrackerapi-production.up.railway.app';
+const FLASK_API_URL = 'https://financetrackerpyhtonapi-1.onrender.com';
 
 function getAuthHeaders() {
   const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
