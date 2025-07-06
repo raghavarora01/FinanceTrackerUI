@@ -33,3 +33,18 @@ This is the frontend for the Personal Finance Tracker+ web application, built us
 ```bash
 git clone https://github.com/raghavarora01/FinanceTrackerUI.git
 cd FinanceTrackerUI
+
+
+### 2. Navigate to the project directory:
+
+❯ cd FinanceTrackerUI
+
+
+### 3. Install the dependencies:
+
+npm install
+
+
+ ### 4. Run the project with:
+
+npm start
